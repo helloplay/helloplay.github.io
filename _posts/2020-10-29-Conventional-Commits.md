@@ -12,4 +12,4 @@ comments: true
 단순 메시지 식별 뿐만 아니라 추출, 배포 전략에도 쓰임이 많아진다.
 
 ## Reference List
-* [https://www.conventionalcommits.org/ko/]([https://www.conventionalcommits.org/ko/])  
+* [https://www.conventionalcommits.org/ko/](https://www.conventionalcommits.org/ko/)  
