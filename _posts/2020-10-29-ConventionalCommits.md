@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 커밋 메시지 컨벤션
+title: CommitMessage
 subtitle: conventionalcommits
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
@@ -8,4 +8,4 @@ tags: [git][convention]
 comments: true
 ---
 
-[커밋 메시지](https://www.conventionalcommits.org/ko/)
+[conventionalcommits](https://www.conventionalcommits.org/ko/)
