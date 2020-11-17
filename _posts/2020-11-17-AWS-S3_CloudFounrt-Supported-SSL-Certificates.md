@@ -16,8 +16,8 @@ published: true
 
 
 ## 신뢰되는 인증서인지 확인하는 방법
-- ATS 가이드 내, 인증서 고유 이름을 기준으로
-OS, 브라우저 등에서 지원 가능한 인증서를 대조해 보면 된다.
+- ATS 가이드 내, 인증서 고유 이름을 식별하여
+OS, 브라우저 등에서 지원 가능한 인증서와 대조가 가능하다.
 
 - ATS 가이드 : [https://aws.amazon.com/ko/blogs/security/how-to-prepare-for-aws-move-to-its-own-certificate-authority/](https://aws.amazon.com/ko/blogs/security/how-to-prepare-for-aws-move-to-its-own-certificate-authority/)
 
