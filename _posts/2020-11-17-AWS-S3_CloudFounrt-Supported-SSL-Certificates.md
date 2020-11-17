@@ -19,23 +19,23 @@ published: true
 - ATS 가이드 내, 인증서 고유 이름을 기준으로
 OS, 브라우저 등에서 지원 가능한 인증서를 대조해 보면 된다.
 
-- ATS 가이드 : https://aws.amazon.com/ko/blogs/security/how-to-prepare-for-aws-move-to-its-own-certificate-authority/ 
+- ATS 가이드 : [https://aws.amazon.com/ko/blogs/security/how-to-prepare-for-aws-move-to-its-own-certificate-authority/](https://aws.amazon.com/ko/blogs/security/how-to-prepare-for-aws-move-to-its-own-certificate-authority/)
 
-- ios 12 지원 인증서 리스트 : https://support.apple.com/ko-kr/HT209144
-- 이 외 os 버전 리스트 : https://support.apple.com/ko-kr/HT204132
+- ios 12 지원 인증서 리스트 : [https://support.apple.com/ko-kr/HT209144](https://support.apple.com/ko-kr/HT209144)
+- 이 외 os 버전 리스트 : [https://support.apple.com/ko-kr/HT204132](https://support.apple.com/ko-kr/HT204132)
 
-- aos 지원 인증서 리스트 : https://android.googlesource.com/platform/system/ca-certificates/+/master/files/
-- 설정 > 보안 > 기타 보안 > 인증서 확인 메뉴를 통해 폰에서 직접 확인도 가능하다.
+- aos 지원 인증서 리스트 : [https://android.googlesource.com/platform/system/ca-certificates/+/master/files/](https://android.googlesource.com/platform/system/ca-certificates/+/master/files/)
+- 설정 > 보안 > 기타 보안 > 인증서 확인 메뉴를 통해 디바이스에서 직접 확인도 가능하다.
 
 
 ## Amazon Trust Services 인증서 테스트
 ### 정상 여부 테스트 사이트
-- https://s3-ats-migration-test.s3.eu-west-3.amazonaws.com/test.jpg
-- https://good.sca1a.amazontrust.com/
-- https://good.sca2a.amazontrust.com/
-- https://good.sca3a.amazontrust.com/
-- https://good.sca4a.amazontrust.com/
-- https://good.sca0a.amazontrust.com/
+- [https://s3-ats-migration-test.s3.eu-west-3.amazonaws.com/test.jpg](https://s3-ats-migration-test.s3.eu-west-3.amazonaws.com/test.jpg)
+- [https://good.sca1a.amazontrust.com/](https://good.sca1a.amazontrust.com/)
+- [https://good.sca2a.amazontrust.com/](https://good.sca2a.amazontrust.com/)
+- [https://good.sca3a.amazontrust.com/](https://good.sca3a.amazontrust.com/)
+- [https://good.sca4a.amazontrust.com/](https://good.sca4a.amazontrust.com/)
+- [https://good.sca0a.amazontrust.com/](https://good.sca0a.amazontrust.com/)
 
 ### 비정상 케이스에 대한 예시
-- https://untrusted-root.badssl.com/
+- [https://untrusted-root.badssl.com/](https://untrusted-root.badssl.com/)
